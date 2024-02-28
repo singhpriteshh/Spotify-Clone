@@ -218,8 +218,30 @@ a{
 }
 
 .album{
-    width: 25%;
+    width: 21%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
+    align-items: center;
 }
+
+.song{
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.artist{
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin-left: 0.5rem;
+}
+
+.album-picture{
+    height: 56px;
+    width: 56px;
+    border-radius: 2px;
+}
+
 
 .player{
     width: 50%;
@@ -272,3 +294,5 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 }
+
+
