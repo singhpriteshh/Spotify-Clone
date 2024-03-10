@@ -268,15 +268,37 @@ a{
 .control{
     width: 25%;
     display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.control img{
+    height: 2rem;
+    
+}
+
+.volume{
+    width: 20%;
+    
+}
+
+.volume::-webkit-slider-runnable-track {
+    /* background-color: #ddd; */
+    border-radius: 100px;
+    height: 0.25rem;
+}
+
+.volume::-webkit-slider-thumb {
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
 }
 
 
-
-
-
-.control .progress-bar{
-    width: 50%;
-}
 
 .player-controls{
     display: flex;
